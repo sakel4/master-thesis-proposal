@@ -1,0 +1,114 @@
+\documentclass{master-thesis}
+
+\usepackage{blindtext}
+
+\date{\today}
+
+\begin{document}
+
+% Header area
+\begin{figure}[ht!]
+    \begin{minipage}{0.12\textwidth}  % Adjust width for the logo
+        \includegraphics[width=\linewidth]{university_logo}  % Adjust the path and size
+    \end{minipage}%
+    \hspace{5mm}  % Space between the logo and the text
+    \begin{minipage}{0.88\textwidth}  % Adjust width for the text
+        \title{HELLENIC MEDITERRANEAN UNIVERSITY}
+        \maketitle
+        \begin{center}
+            \color{redberry}\rule[0mm]{15cm}{4pt}
+            \vspace{-5mm}
+        \end{center}
+        \largetitle{DEPARTMENT OF ELECTRICAL AND COMPUTER ENGINEERING}
+    \end{minipage}
+\end{figure}
+
+% Info area
+\begin{tabular}{ | m{15em} | m{15em}| m{8em} | } 
+  \hline \vspace{0.1cm} 
+  \smalltitlebold{SURNAME} 
+  \vspace{.5cm} \newline 
+  ............... 
+  & 
+  \smalltitlebold{NAME} 
+  \vspace{.5cm} \newline 
+  ............... 
+  & 
+  \smalltitlebold{STUDENT NO.}
+  \vspace{.5cm} \newline 
+  ............... \\ [3ex]
+  \hline
+\end{tabular}
+
+\nointerlineskip
+
+\begin{tabular}{ | p{19em} | p{20.15em}|  } 
+  \hline 
+  \smalltitle{PROGRAM OF STUDIES} 
+  \vspace{.5cm} \newline 
+  \smalltitlebold{INFORMATICS ENGINEERING}
+  & 
+  \smalltitle{ACADEMIC UNIT/DEPARTMENT} 
+  \vspace{.5cm} \newline 
+  \smalltitlebold{SCHOOL OF ENGINEERING/DEPARTMENT OF ELECTRICAL AND COMPUTER ENGINEERING} \\
+  \hline
+\end{tabular}
+
+\largetitle{FINAL THESIS PROPOSAL} \vspace{1em}
+
+\begin{tabular}{ | m{40.3em} | } 
+  \hline \vspace{0.1cm} 
+  \begin{center}
+	\smalltitlebold{PROPOSED THESIS TITLE} 
+  \end{center}
+  \begin{center}
+  .........................................................
+  \end{center} \\
+  \hline
+\end{tabular}
+
+\nointerlineskip
+
+\begin{tabular}{ | m{40.3em} | } 
+  \hline \vspace{0.1cm} 
+  \smalltitlebold{FULL NAME OF THESIS SUPERVISOR} 
+  \vspace{.5cm} \newline 
+  .................................................................................. \\ [4ex]
+  \hline
+\end{tabular}
+
+\nointerlineskip
+
+\begin{tabular}{ | p{19em} | p{20.15em} |} 
+  \hline \vspace{-0.1cm} 
+  \smalltitlebold{FULL NAME AND AFFILIATION OF THESIS EXAMINER A (if available)} 
+  \vspace{.5cm} \newline 
+  .................................................................................. 
+  &
+  \vspace{-0.1cm} 
+  \smalltitlebold{FULL NAME AND AFFILIATION OF THESIS EXAMINER B (if available)} 
+  \vspace{.5cm} \newline 
+  .................................................................................. \\ [7ex]
+  \hline
+\end{tabular}
+
+\nointerlineskip
+
+\begin{tabular}{ | p{40.3em} |} 
+\hline
+% Content area
+\section{Introduction}
+This is the first section.
+
+\blindtext
+
+\section{Second Section}
+This is the second section
+
+\blindtext 
+
+% end of "tabular area"
+\\ \hline
+\end{tabular}
+
+\end{document}
